@@ -38,7 +38,7 @@ struct ExtractedScrollView: View {
         ZStack {
             ScrollView {
                 VStack {
-                    ForEach(0..<101) {
+                    ForEach(1..<101) {
                         Text("\($0)")
                             .font(.monospaced(.title2)())
                             .foregroundStyle(.secondary)
